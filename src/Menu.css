@@ -1,0 +1,10 @@
+.Menu-icon {
+  margin: auto 0;
+}
+
+.Menu-icon-line {
+  width: 35px;
+  height: 5px;
+  background-color: #333333;
+  margin: 6px 0;
+}
