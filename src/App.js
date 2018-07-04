@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import logo from "./images/logo.png";
 import "./App.css";
-import Menu from "./Menu/Menu";
-import Body from "./Body/Body";
+import Menu from "./components/Menu/Menu";
+import Body from "./components/Body/Body";
 
 class App extends Component {
   render() {
