@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -8,9 +7,6 @@ import {
   faGithub,
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
-
-// Add FontAwesome Icons to Library
-library.add(faCopyright, faEnvelope, faLinkedin, faGithub, faTwitter);
 
 class Footer extends Component {
   render() {
@@ -21,16 +17,16 @@ class Footer extends Component {
         </div>
         <div className="social">
           <a href="mailto:joseph.kerkhof@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#333333" />
           </a>
           <a href="https://www.linkedin.com/in/josephkerkhof">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} size="lg" color="#333333" />
           </a>
           <a href="https://github.com/musicaljoeker">
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} size="lg" color="#333333" />
           </a>
           <a href="https://twitter.com/musicaljoeker">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faTwitter} size="lg" color="#333333" />
           </a>
         </div>
       </div>

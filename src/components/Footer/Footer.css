@@ -6,13 +6,9 @@
   background-color: #f5f5f5;
 }
 
-.copywright,
-.social {
-  opacity: 0.5;
-}
-
 .copywright {
   text-align: left;
+  opacity: 0.5;
 }
 
 .social {
