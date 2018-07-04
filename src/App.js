@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.png";
 import "./App.css";
 import Menu from "./Menu.js";
+import Body from "./Body.js";
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
           <Menu />
           <img src={logo} className="App-logo" alt="logo for Joseph Kerkhof" />
         </nav>
-        <main className="App-main">here is some junk text</main>
+        <Body />
       </div>
     );
   }
