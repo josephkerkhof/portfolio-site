@@ -1,0 +1,12 @@
+.App-nav {
+  background-color: #ffffff;
+  height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
