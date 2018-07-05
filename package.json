@@ -27,6 +27,7 @@
     "eslint-plugin-react": "^7.10.0",
     "i": "^0.3.6",
     "npm": "^6.1.0",
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "react-router-dom": "^4.3.1"
   }
 }
