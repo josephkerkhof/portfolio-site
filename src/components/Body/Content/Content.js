@@ -8,7 +8,7 @@ class Content extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="content-wrapper">
           <Route exact path="/" component={Home} />
           <Route path="/work" component={Work} />
         </div>

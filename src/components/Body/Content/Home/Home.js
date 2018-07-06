@@ -4,7 +4,7 @@ import "./Home.css";
 class Home extends Component {
   render() {
     return (
-      <div className="content-wrapper">
+      <div>
         <h1 className="greeting">
           Hi{" "}
           <span role="img" aria-label="light skinned waving hand emoji">
