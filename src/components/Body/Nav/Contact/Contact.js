@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <a href="mailto:joseph.kerkhof@gmail.com" className="contact-wrapper">
-        <div className="centerer">
+        <div className="contact-centerer">
           <FontAwesomeIcon
             icon={faPaperPlane}
             size="lg"

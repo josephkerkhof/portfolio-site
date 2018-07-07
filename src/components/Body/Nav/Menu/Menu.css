@@ -5,17 +5,11 @@
   text-align: left;
 }
 
-.centerer {
+.menu-centerer {
   display: inline-block;
+  cursor: pointer;
 }
 
 .menu-text {
   text-align: left;
-}
-
-.menu-icon-line {
-  width: 35px;
-  height: 5px;
-  background-color: #333333;
-  margin: 6px auto;
 }
