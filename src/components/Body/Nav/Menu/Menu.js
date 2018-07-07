@@ -4,13 +4,9 @@ import MenuIcon from "./MenuIcon/MenuIcon";
 
 class Menu extends Component {
   render() {
-    function menuClick(e) {
-      console.log("menu was clicked!");
-    }
-
     return (
       <div className="menu-wrapper">
-        <div className="menu-centerer" onClick={menuClick}>
+        <div className="menu-centerer" onClick={this.props.overlayToggle}>
           <MenuIcon />
           <div className="menu-text">Menu</div>
         </div>

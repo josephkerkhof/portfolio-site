@@ -5,14 +5,28 @@ import Footer from "./components/Footer/Footer";
 import Overlay from "./components/Overlay/Overlay";
 
 class App extends Component {
-  state = {
-    overlayVisible: true
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      overlayVisible: false
+    };
+    this.overlayToggleCallback = this.overlayToggleCallback.bind(this);
+  }
+
+  overlayToggleCallback() {
+    console.log(this.state.overlayVisible);
+    if (this.state.overlayVisible) {
+      this.setState({ overlayVisible: false });
+    } else {
+      console.log("got a false");
+      this.setState({ overlayVisible: true });
+    }
+  }
 
   render() {
     return (
       <div className="App">
-        <Body />
+        <Body overlayToggle={this.overlayToggleCallback} />
         <Footer />
         <Overlay show={this.state.overlayVisible} />
       </div>
