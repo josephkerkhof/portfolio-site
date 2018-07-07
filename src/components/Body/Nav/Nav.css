@@ -1,8 +1,6 @@
 .nav {
   background-color: #ffffff;
   height: 75px;
-  padding-left: 25px;
-  padding-right: 25px;
   color: #333333;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;

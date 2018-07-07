@@ -1,0 +1,12 @@
+.contact-wrapper {
+    text-align: right;
+    padding-right: 30px;
+    margin: auto 0;
+    display: block;
+    color: #333333;
+}
+
+.contact-me {
+    padding-right: 5px;
+    display: inline-block;
+}
