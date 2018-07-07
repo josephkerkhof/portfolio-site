@@ -1,12 +1,18 @@
 .contact-wrapper {
-    text-align: right;
     padding-right: 30px;
     margin: auto 0;
-    display: block;
     color: #333333;
+    text-decoration: none;
+    text-align: right;
 }
 
-.contact-me {
-    padding-right: 5px;
+.centerer {
     display: inline-block;
+}
+
+.contact-me {}
+
+.plane-icon {
+    display: block;
+    margin: 0 auto;
 }

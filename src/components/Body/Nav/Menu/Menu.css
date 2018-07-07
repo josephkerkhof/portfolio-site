@@ -1,11 +1,24 @@
-.Menu-icon {
+.menu-wrapper {
   margin: auto 0;
   padding-left: 30px;
+  display: inline-block;
+  text-align: left;
 }
 
-.Menu-icon-line {
+.centerer {
+  display: inline-block;
+}
+
+.menu-icon,
+.menu-text {}
+
+.menu-text {
+  text-align: left;
+}
+
+.menu-icon-line {
   width: 35px;
   height: 5px;
   background-color: #333333;
-  margin: 6px 0;
+  margin: 6px auto;
 }

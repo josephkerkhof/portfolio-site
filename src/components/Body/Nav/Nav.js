@@ -9,7 +9,7 @@ class Nav extends Component {
     return (
       <nav className="nav">
         <Menu />
-        <img src={logo} className="App-logo" alt="logo for Joseph Kerkhof" />
+        <img src={logo} className="logo" alt="logo for Joseph Kerkhof" />
         <Contact />
       </nav>
     );

@@ -8,3 +8,14 @@
   position: fixed;
   width: 100%;
 }
+
+.logo {
+  height: 40px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 425px) {
+  .logo {
+    height: 30px;
+  }
+}

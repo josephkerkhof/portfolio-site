@@ -7,8 +7,14 @@ class Contact extends Component {
   render() {
     return (
       <a href="mailto:joseph.kerkhof@gmail.com" className="contact-wrapper">
-        <div className="contact-me">Contact Me!</div>
-        <FontAwesomeIcon icon={faPaperPlane} size="lg" />
+        <div className="centerer">
+          <FontAwesomeIcon
+            icon={faPaperPlane}
+            size="lg"
+            className="plane-icon"
+          />
+          <div className="contact-me">Contact</div>
+        </div>
       </a>
     );
   }

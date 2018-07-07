@@ -4,10 +4,15 @@ import "./Menu.css";
 class Menu extends Component {
   render() {
     return (
-      <div className="Menu-icon">
-        <div className="Menu-icon-line" />
-        <div className="Menu-icon-line" />
-        <div className="Menu-icon-line" />
+      <div className="menu-wrapper">
+        <div className="centerer">
+          <div className="menu-icon">
+            <div className="menu-icon-line" />
+            <div className="menu-icon-line" />
+            <div className="menu-icon-line" />
+          </div>
+          <div class="menu-text">Menu</div>
+        </div>
       </div>
     );
   }
