@@ -3,7 +3,11 @@ import "./Overlay.css";
 
 class Overlay extends Component {
   render() {
-    return <div className="overlay" />;
+    if (this.props.show) {
+      return <div className="overlay" />;
+    } else {
+      return null;
+    }
   }
 }
 
