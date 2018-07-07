@@ -10,10 +10,10 @@ class App extends Component {
     this.state = {
       overlayVisible: false
     };
-    this.overlayToggleCallback = this.overlayToggleCallback.bind(this);
+    this.overlayToggle = this.overlayToggle.bind(this);
   }
 
-  overlayToggleCallback() {
+  overlayToggle() {
     console.log(this.state.overlayVisible);
     if (this.state.overlayVisible) {
       this.setState({ overlayVisible: false });
@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Body overlayToggle={this.overlayToggleCallback} />
+        <Body overlayToggle={this.overlayToggle} />
         <Footer />
         <Overlay show={this.state.overlayVisible} />
       </div>
