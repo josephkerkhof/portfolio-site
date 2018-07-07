@@ -11,7 +11,7 @@ class Menu extends Component {
             <div className="menu-icon-line" />
             <div className="menu-icon-line" />
           </div>
-          <div class="menu-text">Menu</div>
+          <div className="menu-text">Menu</div>
         </div>
       </div>
     );
