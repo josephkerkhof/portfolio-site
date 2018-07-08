@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import "./MenuSidebar.css";
+import CloseIcon from "./CloseIcon/CloseIcon";
 
 class MenuSidebar extends Component {
   render() {
     return (
       <div className="menu-sidebar-wrapper">
-        <div className="close-icon-wrapper">
-          <div className="close-icon">
-            <div className="close-icon-line" />
-            <div className="close-icon-line" />
-          </div>
-        </div>
+        <CloseIcon />
         <ul>
           <li>Home</li>
           <li>Work</li>
