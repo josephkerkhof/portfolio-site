@@ -6,7 +6,12 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 class Contact extends Component {
   render() {
     return (
-      <a href="mailto:joseph.kerkhof@gmail.com" className="contact-wrapper">
+      <a
+        href="mailto:joseph.kerkhof@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-wrapper"
+      >
         <div className="contact-centerer">
           <FontAwesomeIcon
             icon={faPaperPlane}

@@ -16,16 +16,32 @@ class Footer extends Component {
           <FontAwesomeIcon icon={faCopyright} /> Joseph Kerkhof
         </div>
         <div className="social">
-          <a href="mailto:joseph.kerkhof@gmail.com">
+          <a
+            href="mailto:joseph.kerkhof@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faEnvelope} size="lg" color="#333333" />
           </a>
-          <a href="https://www.linkedin.com/in/josephkerkhof">
+          <a
+            href="https://www.linkedin.com/in/josephkerkhof"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} size="lg" color="#333333" />
           </a>
-          <a href="https://github.com/musicaljoeker">
+          <a
+            href="https://github.com/musicaljoeker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} size="lg" color="#333333" />
           </a>
-          <a href="https://twitter.com/musicaljoeker">
+          <a
+            href="https://twitter.com/musicaljoeker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} size="lg" color="#333333" />
           </a>
         </div>

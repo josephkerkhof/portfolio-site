@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 30px;
+  padding: 50px 30px;
   background-color: #dadfe1;
   grid-row-start: 2;
   grid-row-end: 3;
