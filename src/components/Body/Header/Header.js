@@ -6,7 +6,6 @@ import Contact from "./Contact/Contact";
 
 class Header extends Component {
   render() {
-    console.log(this.props);
     return (
       <header className="header">
         <Menu menuToggle={this.props.menuToggle} />

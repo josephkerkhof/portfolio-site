@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
+import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
 import Overlay from "./components/Overlay/Overlay";
@@ -16,28 +17,31 @@ class App extends Component {
   }
 
   menuToggle() {
-    console.log(this.state.menuVisible);
     if (this.state.menuVisible) {
       this.setState({ menuVisible: false });
     } else {
-      console.log("got a false");
       this.setState({ menuVisible: true });
     }
   }
 
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Body menuToggle={this.menuToggle} />
-          <Footer />
-          <Overlay show={this.state.menuVisible} menuToggle={this.menuToggle} />
-          <MenuSidebar
-            show={this.state.menuVisible}
-            menuToggle={this.menuToggle}
-          />
-        </div>
-      </Router>
+      <ErrorBoundary>
+        <Router>
+          <div className="App">
+            <Body menuToggle={this.menuToggle} />
+            <Footer />
+            <Overlay
+              show={this.state.menuVisible}
+              menuToggle={this.menuToggle}
+            />
+            <MenuSidebar
+              show={this.state.menuVisible}
+              menuToggle={this.menuToggle}
+            />
+          </div>
+        </Router>
+      </ErrorBoundary>
     );
   }
 }
