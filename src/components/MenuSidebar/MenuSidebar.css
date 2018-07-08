@@ -2,13 +2,25 @@
     background-color: #FFF;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -207px;
     bottom: 0;
     height: 100%;
     padding-left: 30px;
     padding-right: 90px;
     z-index: 3;
     text-align: left;
+}
+
+.menu-sidebar-wrapper.active {
+    left: 0px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.menu-sidebar-wrapper.disabled {
+    left: -207px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .menu-sidebar-wrapper ul {
