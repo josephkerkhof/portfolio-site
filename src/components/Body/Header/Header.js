@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import logo from "../../../images/logo.png";
-import "./Nav.css";
+import "./Header.css";
 import Menu from "./Menu/Menu";
 import Contact from "./Contact/Contact";
 
-class Nav extends Component {
+class Header extends Component {
   render() {
     console.log(this.props);
     return (
-      <nav className="nav">
+      <header className="header">
         <Menu menuToggle={this.props.menuToggle} />
         <img src={logo} className="logo" alt="logo for Joseph Kerkhof" />
         <Contact />
-      </nav>
+      </header>
     );
   }
 }
 
-export default Nav;
+export default Header;

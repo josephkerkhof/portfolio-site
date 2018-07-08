@@ -11,7 +11,7 @@ import {
 class Footer extends Component {
   render() {
     return (
-      <div className="footer-wrapper">
+      <footer className="footer-wrapper">
         <div className="copywright">
           <FontAwesomeIcon icon={faCopyright} /> Joseph Kerkhof
         </div>
@@ -45,7 +45,7 @@ class Footer extends Component {
             <FontAwesomeIcon icon={faTwitter} size="lg" color="#333333" />
           </a>
         </div>
-      </div>
+      </footer>
     );
   }
 }

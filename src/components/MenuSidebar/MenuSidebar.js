@@ -8,11 +8,13 @@ class MenuSidebar extends Component {
       return (
         <div className="menu-sidebar-wrapper">
           <CloseIcon menuToggle={this.props.menuToggle} />
-          <ul>
-            <li>Home</li>
-            <li>Work</li>
-            <li>Contact</li>
-          </ul>
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>Work</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
         </div>
       );
     } else {

@@ -8,10 +8,10 @@ class Content extends Component {
   render() {
     return (
       <Router>
-        <div className="content-wrapper">
+        <main className="content-wrapper">
           <Route exact path="/" component={Home} />
           <Route path="/work" component={Work} />
-        </div>
+        </main>
       </Router>
     );
   }
