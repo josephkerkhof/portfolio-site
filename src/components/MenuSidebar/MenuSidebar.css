@@ -19,3 +19,8 @@
     font-size: 1.5rem;
     padding: 35px 0;
 }
+
+.menu-sidebar-wrapper ul li a {
+    text-decoration: none;
+    color: #333333;
+}

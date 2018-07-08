@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
@@ -26,15 +27,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Body menuToggle={this.menuToggle} />
-        <Footer />
-        <Overlay show={this.state.menuVisible} />
-        <MenuSidebar
-          show={this.state.menuVisible}
-          menuToggle={this.menuToggle}
-        />
-      </div>
+      <Router>
+        <div className="App">
+          <Body menuToggle={this.menuToggle} />
+          <Footer />
+          <Overlay show={this.state.menuVisible} />
+          <MenuSidebar
+            show={this.state.menuVisible}
+            menuToggle={this.menuToggle}
+          />
+        </div>
+      </Router>
     );
   }
 }

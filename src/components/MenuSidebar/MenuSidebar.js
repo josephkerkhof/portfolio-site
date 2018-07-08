@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./MenuSidebar.css";
 import CloseIcon from "./CloseIcon/CloseIcon";
+import { Link } from "react-router-dom";
 
 class MenuSidebar extends Component {
   render() {
@@ -10,9 +11,15 @@ class MenuSidebar extends Component {
           <CloseIcon menuToggle={this.props.menuToggle} />
           <nav>
             <ul>
-              <li>Home</li>
-              <li>Work</li>
-              <li>Contact</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/work">Work</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </nav>
         </div>
