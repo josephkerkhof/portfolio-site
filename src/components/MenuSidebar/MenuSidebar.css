@@ -1,0 +1,46 @@
+.menu-sidebar-wrapper {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    padding: 0 30px;
+    z-index: 3;
+    text-align: left;
+}
+
+.menu-sidebar-wrapper ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-sidebar-wrapper ul li {
+    font-size: 1.5rem;
+    padding: 35px 0;
+}
+
+.close-icon-wrapper {
+    height: 75px;
+    width: 100%;
+    padding-top: 4px;
+}
+
+.close-icon {
+    display: inline-block;
+    padding: 32.5px 0;
+}
+
+.close-icon-line {
+    width: 35px;
+    height: 5px;
+    background-color: #333333;
+}
+
+.close-icon-line:first-of-type {
+    transform: rotate(45deg) translateY(4px);
+}
+
+.close-icon-line:last-of-type {
+    transform: rotate(-45deg) translateY(-4px);
+}

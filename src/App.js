@@ -3,6 +3,7 @@ import "./App.css";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
 import Overlay from "./components/Overlay/Overlay";
+import MenuSidebar from "./components/MenuSidebar/MenuSidebar";
 
 class App extends Component {
   constructor(props) {
@@ -29,6 +30,7 @@ class App extends Component {
         <Body overlayToggle={this.overlayToggle} />
         <Footer />
         <Overlay show={this.state.overlayVisible} />
+        <MenuSidebar />
       </div>
     );
   }
