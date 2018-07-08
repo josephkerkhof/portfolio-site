@@ -12,13 +12,19 @@ class MenuSidebar extends Component {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={this.props.menuToggle}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/work">Work</Link>
+                <Link to="/work" onClick={this.props.menuToggle}>
+                  Work
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" onClick={this.props.menuToggle}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>
