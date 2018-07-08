@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 class MenuSidebar extends Component {
   render() {
-    // if (this.props.show) {
     return (
       <div
         className={
@@ -34,9 +33,6 @@ class MenuSidebar extends Component {
         </nav>
       </div>
     );
-    // } else {
-    //   return null;
-    // }
   }
 }
 
