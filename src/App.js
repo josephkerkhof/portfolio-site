@@ -31,7 +31,7 @@ class App extends Component {
         <div className="App">
           <Body menuToggle={this.menuToggle} />
           <Footer />
-          <Overlay show={this.state.menuVisible} />
+          <Overlay show={this.state.menuVisible} menuToggle={this.menuToggle} />
           <MenuSidebar
             show={this.state.menuVisible}
             menuToggle={this.menuToggle}
