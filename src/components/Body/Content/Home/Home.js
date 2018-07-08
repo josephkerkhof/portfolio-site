@@ -5,7 +5,7 @@ import profileImage from "../../../../images/joseph-profile.jpg";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="home-wrapper">
         <h1 className="greeting">
           Hi{" "}
           <span role="img" aria-label="light skinned waving hand emoji">
