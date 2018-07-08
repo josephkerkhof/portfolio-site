@@ -10,7 +10,7 @@ class Contact extends Component {
         href="mailto:joseph.kerkhof@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="contact-wrapper"
+        className="header-contact-wrapper"
       >
         <div className="contact-centerer">
           <FontAwesomeIcon

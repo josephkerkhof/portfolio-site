@@ -1,17 +1,17 @@
-.contact-wrapper {
-    padding-right: 30px;
-    margin: auto 0;
-    color: #333333;
-    text-decoration: none;
-    text-align: right;
+.header-contact-wrapper {
+  padding-right: 30px;
+  margin: auto 0;
+  color: #333333;
+  text-decoration: none;
+  text-align: right;
 }
 
 .contact-centerer {
-    display: inline-block;
+  display: inline-block;
 }
 
 .plane-icon {
-    display: block;
-    margin: 0 auto;
-    font-size: 39px;
+  display: block;
+  margin: 0 auto;
+  font-size: 39px;
 }
