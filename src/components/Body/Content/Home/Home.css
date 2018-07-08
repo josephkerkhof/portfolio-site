@@ -1,0 +1,16 @@
+.profile-image {
+    height: 350px;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-image {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .profile-image {
+        display: none;
+    }
+}
