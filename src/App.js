@@ -30,7 +30,7 @@ class App extends Component {
         <Body overlayToggle={this.overlayToggle} />
         <Footer />
         <Overlay show={this.state.overlayVisible} />
-        <MenuSidebar />
+        <MenuSidebar overlayToggle={this.overlayToggle} />
       </div>
     );
   }

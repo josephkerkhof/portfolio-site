@@ -6,7 +6,7 @@ class MenuSidebar extends Component {
   render() {
     return (
       <div className="menu-sidebar-wrapper">
-        <CloseIcon />
+        <CloseIcon overlayToggle={this.props.overlayToggle} />
         <ul>
           <li>Home</li>
           <li>Work</li>

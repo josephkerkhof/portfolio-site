@@ -5,7 +5,7 @@ class CloseIcon extends Component {
   render() {
     return (
       <div className="close-icon-wrapper">
-        <div className="close-icon">
+        <div className="close-icon" onClick={this.props.overlayToggle}>
           <div className="close-icon-line" />
           <div className="close-icon-line" />
         </div>
