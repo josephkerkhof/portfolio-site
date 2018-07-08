@@ -7,7 +7,7 @@ class Body extends Component {
   render() {
     return (
       <div className="page-wrapper">
-        <Nav overlayToggle={this.props.overlayToggle} />
+        <Nav menuToggle={this.props.menuToggle} />
         <Content />
       </div>
     );

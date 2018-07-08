@@ -9,28 +9,31 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      overlayVisible: false
+      menuVisible: false
     };
-    this.overlayToggle = this.overlayToggle.bind(this);
+    this.menuToggle = this.menuToggle.bind(this);
   }
 
-  overlayToggle() {
-    console.log(this.state.overlayVisible);
-    if (this.state.overlayVisible) {
-      this.setState({ overlayVisible: false });
+  menuToggle() {
+    console.log(this.state.menuVisible);
+    if (this.state.menuVisible) {
+      this.setState({ menuVisible: false });
     } else {
       console.log("got a false");
-      this.setState({ overlayVisible: true });
+      this.setState({ menuVisible: true });
     }
   }
 
   render() {
     return (
       <div className="App">
-        <Body overlayToggle={this.overlayToggle} />
+        <Body menuToggle={this.menuToggle} />
         <Footer />
-        <Overlay show={this.state.overlayVisible} />
-        <MenuSidebar overlayToggle={this.overlayToggle} />
+        <Overlay show={this.state.menuVisible} />
+        <MenuSidebar
+          show={this.state.menuVisible}
+          menuToggle={this.menuToggle}
+        />
       </div>
     );
   }

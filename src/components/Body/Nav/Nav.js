@@ -9,7 +9,7 @@ class Nav extends Component {
     console.log(this.props);
     return (
       <nav className="nav">
-        <Menu overlayToggle={this.props.overlayToggle} />
+        <Menu menuToggle={this.props.menuToggle} />
         <img src={logo} className="logo" alt="logo for Joseph Kerkhof" />
         <Contact />
       </nav>

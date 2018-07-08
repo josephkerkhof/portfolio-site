@@ -6,7 +6,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu-wrapper">
-        <div className="menu-centerer" onClick={this.props.overlayToggle}>
+        <div className="menu-centerer" onClick={this.props.menuToggle}>
           <MenuIcon />
           <div className="menu-text">Menu</div>
         </div>
