@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 body,
 html,
 #root {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 4rem;
+  font-weight: 300;
 }
 
 p {
