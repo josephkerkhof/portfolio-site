@@ -34,7 +34,12 @@ class Home extends Component {
           Wisconsin - Extension.
         </p>
         <p>
-          <a target="_blank" href="mailto:joseph.kerkhof@gmail.com">
+          <a
+            target="_blank"
+            without
+            rel="noopener noreferrer"
+            href="mailto:joseph.kerkhof@gmail.com"
+          >
             Reach out
           </a>{" "}
           to me to see how I can help you and your organization!
