@@ -19,22 +19,25 @@ class Home extends Component {
           className="profile-image"
         />
         <p>
-          Nice to meet you! I’m a Web Application Developer from the University
-          of Wisconsin – Oshkosh. I earned my Undergraduate degree from
-          University of Wisconsin – Oshkosh in Computer Science in 2016 and
-          currently pursuing a Master’s degree in Data Science from University
-          of Wisconsin - Extension.
+          Nice to meet you! I'm a full stack web developer with a passion for
+          developing great products. With an eye for detail, I've proven the
+          ability to write quality code that works at scale. I have a passion
+          for innovating creative solutions to difficult tasks. I currently
+          spend my free time learning new technologies to apply to my
+          profession, and traveling with my lovely wife.
         </p>
         <p>
-          I was drawn to computing at a young age and after taking a web design
-          course in high school, I discovered my love for programming. During my
-          internship as a Web Application Developer in college I realized the
-          "cool" factor of Data Science, what could be done with it, and the
-          useful applications it can provide businesses. I take immense pride in
-          my work as a developer and try to do everything to the best of my
-          ability. As the scope of technology changes rapidly, it is critical to
-          design and build applications thoughtfully to keep usefulness at
-          maximum and risk to minimum.
+          Currently, I’m a Web Application Developer from the University of
+          Wisconsin – Oshkosh. I earned my Undergraduate degree from University
+          of Wisconsin – Oshkosh in Computer Science in 2016 and currently
+          pursuing a Master’s degree in Data Science from University of
+          Wisconsin - Extension.
+        </p>
+        <p>
+          <a target="_blank" href="mailto:joseph.kerkhof@gmail.com">
+            Reach out
+          </a>{" "}
+          to me to see how I can help you and your organization!
         </p>
       </div>
     );

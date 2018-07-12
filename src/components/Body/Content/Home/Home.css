@@ -1,3 +1,7 @@
+.home-wrapper a {
+    color: black;
+}
+
 .profile-image {
     height: 350px;
     float: right;
