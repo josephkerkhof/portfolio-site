@@ -1,0 +1,19 @@
+.work-item {
+  padding: 25px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-column-gap: 10px;
+}
+
+.work-item div {
+  display: inline-block;
+}
+
+.crop {
+  height: 250px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 250px;
+}
