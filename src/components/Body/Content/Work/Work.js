@@ -34,20 +34,20 @@ class Work extends Component {
           <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>
         </h4>
         <hr />
-        <div className="work-item">
-          <div className="crop">
-            <img
-              src={uwoshAdmissions}
-              alt="University of Wisconsin - Oshkosh Admissions home page"
-            />
-          </div>
-          <div className="crop">
+        <div className="work-items">
+          <div className="crop uwo-theme-image-1">
             <img
               src={uwoshHome}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
           </div>
-          <div className="work-item-description">
+          <div className="crop uwo-theme-image-2">
+            <img
+              src={uwoshAdmissions}
+              alt="University of Wisconsin - Oshkosh Admissions home page"
+            />
+          </div>
+          <div className="uwo-theme-description">
             These are examples of the{" "}
             <a
               href="https://github.com/uwosh/uw-oshkosh-divi"
@@ -56,11 +56,11 @@ class Work extends Component {
             >
               WordPress theme
             </a>{" "}
-            I was in charge of maintaining at{" "}
+            I maintained at{" "}
             <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>.
-            This theme was used on almost every WordPress site{" "}
-            <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> on
-            campus. Examples here include our{" "}
+            This theme was used on almost every site on the{" "}
+            <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> campus.
+            Examples here include our{" "}
             <a
               href="https://uwosh.edu"
               target="_blank"
