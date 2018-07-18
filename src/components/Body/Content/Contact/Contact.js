@@ -1,14 +1,14 @@
 import React, { Component } from "react";
+import Helmet from "react-helmet";
 import "./Contact.css";
 
 class Contact extends Component {
-  componentDidMount() {
-    document.title = "Joseph Kerkhof - Contact";
-  }
   render() {
     return (
       <div className="contact-page-wrapper">
-        {" "}
+        <Helmet>
+          <title>Joseph Kerkhof - Contact</title>
+        </Helmet>{" "}
         <h1>Contact</h1>
         <div>
           I am available for contact on a number of platforms. Listed in order

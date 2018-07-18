@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Work.css";
+import Helmet from "react-helmet";
 import uwoshAdmissions from "./images/admissions.jpg";
 import uwoshHome from "./images/uwosh.edu.jpg";
 import gemification from "./images/gemification.jpg";
@@ -8,12 +9,12 @@ import virtualTour from "./images/virtualtour.jpg";
 import farmAndFleetBlog from "./images/farmandfleetblog.jpg";
 
 class Work extends Component {
-  componentDidMount() {
-    document.title = "Joseph Kerkhof - Work";
-  }
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Joseph Kerkhof - Work</title>
+        </Helmet>
         <h1>Work</h1>
         <p>
           Below are examples of my work demonstrating that I can design,

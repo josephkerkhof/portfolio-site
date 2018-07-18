@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import Helmet from "react-helmet";
 
 class NotFound extends Component {
-  componentDidMount() {
-    document.title = "Joseph Kerkhof - Not Found";
-  }
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Joseph Kerkhof - Not Found</title>
+        </Helmet>
         <h1>
           Oops...<span role="img" aria-label="woman shrugging">
             🤷🏻

@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import "./Home.css";
+import Helmet from "react-helmet";
 import profileImage from "../../../../images/joseph-profile.jpg";
 
 class Home extends Component {
-  componentDidMount() {
-    document.title = "Joseph Kerkhof - Home";
-  }
   render() {
     return (
       <div className="home-wrapper">
+        <Helmet>
+          <title>Joseph Kerkhof - Home</title>
+        </Helmet>
         <h1 className="greeting">
           Hi{" "}
           <span role="img" aria-label="light skinned waving hand emoji">
