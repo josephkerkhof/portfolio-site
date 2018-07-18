@@ -16,6 +16,7 @@
 
 .work-items img {
   width: 250px;
+  cursor: pointer;
 }
 
 .work-item-title {

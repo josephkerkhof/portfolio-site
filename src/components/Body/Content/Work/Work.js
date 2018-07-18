@@ -3,6 +3,8 @@ import "./Work.css";
 import Modal from "./Modal/Modal";
 import Helmet from "react-helmet";
 import LazyLoad from "react-lazy-load";
+
+// importing small images
 import uwoshAdmissionsSmall from "./images/small-images/admissions.jpg";
 import uwoshHomeSmall from "./images/small-images/uwosh.edu.jpg";
 import gemificationSmall from "./images/small-images/gemification.jpg";
@@ -10,21 +12,88 @@ import portalV2Small from "./images/small-images/portalV2.jpg";
 import virtualTourSmall from "./images/small-images/virtualtour.jpg";
 import farmAndFleetBlogSmall from "./images/small-images/farmandfleetblog.jpg";
 
+// importing modal (big) images
+import uwoshAdmissionsBig from "./images/full-images/admissions.jpg";
+import uwoshHomeBig from "./images/full-images/uwosh.edu.jpg";
+import gemificationBig from "./images/full-images/gemification.jpg";
+import portalV2Big from "./images/full-images/portalV2.jpg";
+import virtualTourBig from "./images/full-images/virtualtour.jpg";
+import farmAndFleetBlogBig from "./images/full-images/farmandfleetblog.jpg";
+
 class Work extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      imageModalVisible: false
+      imageModalVisible: false,
+      imgSrc: "source",
+      imgAlt: "alt"
     };
     this.modalToggle = this.modalToggle.bind(this);
+    this.activateUWOHomeModal = this.activateUWOHomeModal.bind(this);
+    this.activateUWOAdmissionsModal = this.activateUWOAdmissionsModal.bind(
+      this
+    );
+    this.activatePortalV2Modal = this.activatePortalV2Modal.bind(this);
+    this.activateVirtualTourModal = this.activateVirtualTourModal.bind(this);
+    this.activateGemificationModal = this.activateGemificationModal.bind(this);
+    this.activateBFFModal = this.activateBFFModal.bind(this);
   }
 
   modalToggle() {
     if (this.state.imageModalVisible) {
-      this.setState({ imageModalVisible: false });
+      this.setState({ imgSrc: "", imgAlt: "", imageModalVisible: false });
     } else {
       this.setState({ imageModalVisible: true });
     }
+  }
+
+  activateUWOHomeModal() {
+    this.setState({
+      imgSrc: uwoshHomeBig,
+      imgAlt: "University of Wisconsin - Oshkosh Admissions home page",
+      imageModalVisible: true
+    });
+  }
+
+  activateUWOAdmissionsModal() {
+    this.setState({
+      imgSrc: uwoshAdmissionsBig,
+      imgAlt: "University of Wisconsin - Oshkosh Admissions page",
+      imageModalVisible: true
+    });
+  }
+
+  activatePortalV2Modal() {
+    this.setState({
+      imgSrc: portalV2Big,
+      imgAlt: "MyUWO Portal home dashboard showing apps and modules",
+      imageModalVisible: true
+    });
+  }
+
+  activateVirtualTourModal() {
+    this.setState({
+      imgSrc: virtualTourBig,
+      imgAlt:
+        "Web application used to give users a virtual tour of the UW-Oshkosh campus",
+      imageModalVisible: true
+    });
+  }
+
+  activateGemificationModal() {
+    this.setState({
+      imgSrc: gemificationBig,
+      imgAlt: "Slack application called gemification",
+      imageModalVisible: true
+    });
+  }
+
+  activateBFFModal() {
+    this.setState({
+      imgSrc: farmAndFleetBlogBig,
+      imgAlt: "Blain's Farm and Fleet blog with product list attachment",
+      imageModalVisible: true
+    });
   }
 
   render() {
@@ -70,12 +139,14 @@ class Work extends Component {
             <img
               src={uwoshHomeSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
+              onClick={this.activateUWOHomeModal}
             />
           </LazyLoad>
           <LazyLoad className="img-wrapper uwo-theme-image-2">
             <img
               src={uwoshAdmissionsSmall}
-              alt="University of Wisconsin - Oshkosh Admissions home page"
+              alt="University of Wisconsin - Oshkosh Admissions page"
+              onClick={this.activateUWOAdmissionsModal}
             />
           </LazyLoad>
           <div className="uwo-theme-description">
@@ -117,6 +188,7 @@ class Work extends Component {
             <img
               src={portalV2Small}
               alt="MyUWO Portal home dashboard showing apps and modules"
+              onClick={this.activatePortalV2Modal}
             />
           </LazyLoad>
           <div className="portalv2-description">
@@ -151,6 +223,7 @@ class Work extends Component {
             <img
               src={virtualTourSmall}
               alt="Web application used to give users a virtual tour of the UW-Oshkosh campus"
+              onClick={this.activateVirtualTourModal}
             />
           </LazyLoad>
           <div className="virtual-tour-description">
@@ -189,7 +262,8 @@ class Work extends Component {
           <LazyLoad className="img-wrapper">
             <img
               src={gemificationSmall}
-              alt="Screenshot of a Slack application called gemificationSmall"
+              alt="Slack application called gemification"
+              onClick={this.activateGemificationModal}
             />
           </LazyLoad>
           <div className="gemification-description">
@@ -227,6 +301,7 @@ class Work extends Component {
             <img
               src={farmAndFleetBlogSmall}
               alt="Blain's Farm and Fleet blog with product list attachment"
+              onClick={this.activateBFFModal}
             />
           </LazyLoad>
           <div className="bff-blog-description">
@@ -248,6 +323,8 @@ class Work extends Component {
           </div>
         </div>
         <Modal
+          imgSrc={this.state.imgSrc}
+          imgAlt={this.state.imgAlt}
           show={this.state.imageModalVisible}
           modalToggle={this.modalToggle}
         />
