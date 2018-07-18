@@ -14,6 +14,10 @@ class Work extends Component {
       <div>
         <Helmet>
           <title>Joseph Kerkhof - Work</title>
+          <meta
+            name="Description"
+            content="The work page in the portfolio for the full stack web developer Joseph Kerkhof. This page highlights all of the work that proves Joseph is an experience web developer and shows he can get things done."
+          />
         </Helmet>
         <h1>Work</h1>
         <p>

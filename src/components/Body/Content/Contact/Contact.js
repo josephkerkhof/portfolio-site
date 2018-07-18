@@ -8,6 +8,10 @@ class Contact extends Component {
       <div className="contact-page-wrapper">
         <Helmet>
           <title>Joseph Kerkhof - Contact</title>
+          <meta
+            name="Description"
+            content="Contact page in the portfolio for the full stack web developer Joseph Kerkhof. Here Joseph lists his preferences and methods for contact."
+          />
         </Helmet>{" "}
         <h1>Contact</h1>
         <div>

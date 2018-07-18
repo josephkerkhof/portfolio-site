@@ -7,6 +7,7 @@ class NotFound extends Component {
       <div>
         <Helmet>
           <title>Joseph Kerkhof - Not Found</title>
+          <meta name="Description" content="The 404 not found page." />
         </Helmet>
         <h1>
           Oops...<span role="img" aria-label="woman shrugging">

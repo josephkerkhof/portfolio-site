@@ -9,6 +9,10 @@ class Home extends Component {
       <div className="home-wrapper">
         <Helmet>
           <title>Joseph Kerkhof - Home</title>
+          <meta
+            name="Description"
+            content="A portfolio for the full stack web developer Joseph Kerkhof. Joseph is passionate about developing quality products at has experience writing good code that works at scale."
+          />
         </Helmet>
         <h1 className="greeting">
           Hi{" "}
