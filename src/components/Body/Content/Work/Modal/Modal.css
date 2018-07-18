@@ -4,4 +4,7 @@
 
 .modal-img {
     height: 100%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
 }
