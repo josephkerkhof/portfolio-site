@@ -48,13 +48,13 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>'s
             theme and branding
           </div>
-          <div className="uwo-theme-image-1">
+          <div className="img-wrapper uwo-theme-image-1">
             <img
               src={uwoshHomeSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
           </div>
-          <div className="uwo-theme-image-2">
+          <div className="img-wrapper uwo-theme-image-2">
             <img
               src={uwoshAdmissionsSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
@@ -95,7 +95,7 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">MyUWO Portal Homepage Redesign</div>
-          <div>
+          <div className="img-wrapper">
             <img
               src={portalV2Small}
               alt="MyUWO Portal home dashboard showing apps and modules"
@@ -129,7 +129,7 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> Virtual
             Tour Redesign
           </div>
-          <div>
+          <div className="img-wrapper">
             <img
               src={virtualTourSmall}
               alt="Web application used to give users a virtual tour of the UW-Oshkosh campus"
@@ -168,7 +168,7 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">Gemification</div>
-          <div>
+          <div className="img-wrapper">
             <img
               src={gemificationSmall}
               alt="Screenshot of a Slack application called gemificationSmall"
@@ -205,7 +205,7 @@ class Work extends Component {
           <div className="work-item-title">
             Blain's Farm and Fleet Blog - Product List
           </div>
-          <div>
+          <div className="img-wrapper">
             <img
               src={farmAndFleetBlogSmall}
               alt="Blain's Farm and Fleet blog with product list attachment"

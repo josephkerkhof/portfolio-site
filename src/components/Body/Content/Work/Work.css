@@ -10,6 +10,10 @@
   display: inline-block;
 }
 
+.img-wrapper {
+  margin: auto 0;
+}
+
 .work-items img {
   width: 250px;
 }
