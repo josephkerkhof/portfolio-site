@@ -20,6 +20,7 @@ class Footer extends Component {
             href="mailto:joseph.kerkhof@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="email"
           >
             <FontAwesomeIcon icon={faEnvelope} size="lg" color="#333333" />
           </a>
@@ -27,6 +28,7 @@ class Footer extends Component {
             href="https://www.linkedin.com/in/josephkerkhof"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} size="lg" color="#333333" />
           </a>
@@ -34,6 +36,7 @@ class Footer extends Component {
             href="https://github.com/musicaljoeker"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="github"
           >
             <FontAwesomeIcon icon={faGithub} size="lg" color="#333333" />
           </a>
@@ -41,6 +44,7 @@ class Footer extends Component {
             href="https://twitter.com/musicaljoeker"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="twitter"
           >
             <FontAwesomeIcon icon={faTwitter} size="lg" color="#333333" />
           </a>
