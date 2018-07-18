@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Work.css";
 import Helmet from "react-helmet";
+import LazyLoad from "react-lazy-load";
 import uwoshAdmissionsSmall from "./images/small-images/admissions.jpg";
 import uwoshHomeSmall from "./images/small-images/uwosh.edu.jpg";
 import gemificationSmall from "./images/small-images/gemification.jpg";
@@ -48,18 +49,18 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>'s
             theme and branding
           </div>
-          <div className="img-wrapper uwo-theme-image-1">
+          <LazyLoad className="img-wrapper uwo-theme-image-1">
             <img
               src={uwoshHomeSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
-          </div>
-          <div className="img-wrapper uwo-theme-image-2">
+          </LazyLoad>
+          <LazyLoad className="img-wrapper uwo-theme-image-2">
             <img
               src={uwoshAdmissionsSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
-          </div>
+          </LazyLoad>
           <div className="uwo-theme-description">
             <p>
               These are examples of the{" "}
@@ -95,12 +96,12 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">MyUWO Portal Homepage Redesign</div>
-          <div className="img-wrapper">
+          <LazyLoad className="img-wrapper">
             <img
               src={portalV2Small}
               alt="MyUWO Portal home dashboard showing apps and modules"
             />
-          </div>
+          </LazyLoad>
           <div className="portalv2-description">
             <p>
               The{" "}
@@ -129,12 +130,12 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> Virtual
             Tour Redesign
           </div>
-          <div className="img-wrapper">
+          <LazyLoad className="img-wrapper">
             <img
               src={virtualTourSmall}
               alt="Web application used to give users a virtual tour of the UW-Oshkosh campus"
             />
-          </div>
+          </LazyLoad>
           <div className="virtual-tour-description">
             <p>
               The{" "}
@@ -168,12 +169,12 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">Gemification</div>
-          <div className="img-wrapper">
+          <LazyLoad className="img-wrapper">
             <img
               src={gemificationSmall}
               alt="Screenshot of a Slack application called gemificationSmall"
             />
-          </div>
+          </LazyLoad>
           <div className="gemification-description">
             <p>
               Gemification is a Slack bot used to give appreciation toward your
@@ -205,12 +206,12 @@ class Work extends Component {
           <div className="work-item-title">
             Blain's Farm and Fleet Blog - Product List
           </div>
-          <div className="img-wrapper">
+          <LazyLoad className="img-wrapper">
             <img
               src={farmAndFleetBlogSmall}
               alt="Blain's Farm and Fleet blog with product list attachment"
             />
-          </div>
+          </LazyLoad>
           <div className="bff-blog-description">
             <p>
               <a
