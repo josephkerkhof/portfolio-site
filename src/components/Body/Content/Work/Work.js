@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./Work.css";
 import Helmet from "react-helmet";
-import uwoshAdmissions from "./images/admissions.jpg";
-import uwoshHome from "./images/uwosh.edu.jpg";
-import gemification from "./images/gemification.jpg";
-import portalV2 from "./images/portalV2.jpg";
-import virtualTour from "./images/virtualtour.jpg";
-import farmAndFleetBlog from "./images/farmandfleetblog.jpg";
+import uwoshAdmissionsSmall from "./images/small-images/admissions.jpg";
+import uwoshHomeSmall from "./images/small-images/uwosh.edu.jpg";
+import gemificationSmall from "./images/small-images/gemification.jpg";
+import portalV2Small from "./images/small-images/portalV2.jpg";
+import virtualTourSmall from "./images/small-images/virtualtour.jpg";
+import farmAndFleetBlogSmall from "./images/small-images/farmandfleetblog.jpg";
 
 class Work extends Component {
   render() {
@@ -48,15 +48,15 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>'s
             theme and branding
           </div>
-          <div className="crop uwo-theme-image-1">
+          <div className="uwo-theme-image-1">
             <img
-              src={uwoshHome}
+              src={uwoshHomeSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
           </div>
-          <div className="crop uwo-theme-image-2">
+          <div className="uwo-theme-image-2">
             <img
-              src={uwoshAdmissions}
+              src={uwoshAdmissionsSmall}
               alt="University of Wisconsin - Oshkosh Admissions home page"
             />
           </div>
@@ -95,9 +95,9 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">MyUWO Portal Homepage Redesign</div>
-          <div className="crop">
+          <div>
             <img
-              src={portalV2}
+              src={portalV2Small}
               alt="MyUWO Portal home dashboard showing apps and modules"
             />
           </div>
@@ -129,9 +129,9 @@ class Work extends Component {
             <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> Virtual
             Tour Redesign
           </div>
-          <div className="crop">
+          <div>
             <img
-              src={virtualTour}
+              src={virtualTourSmall}
               alt="Web application used to give users a virtual tour of the UW-Oshkosh campus"
             />
           </div>
@@ -168,10 +168,10 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">Gemification</div>
-          <div className="crop">
+          <div>
             <img
-              src={gemification}
-              alt="Screenshot of a Slack application called Gemification"
+              src={gemificationSmall}
+              alt="Screenshot of a Slack application called gemificationSmall"
             />
           </div>
           <div className="gemification-description">
@@ -205,9 +205,9 @@ class Work extends Component {
           <div className="work-item-title">
             Blain's Farm and Fleet Blog - Product List
           </div>
-          <div className="crop">
+          <div>
             <img
-              src={farmAndFleetBlog}
+              src={farmAndFleetBlogSmall}
               alt="Blain's Farm and Fleet blog with product list attachment"
             />
           </div>

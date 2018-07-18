@@ -10,13 +10,7 @@
   display: inline-block;
 }
 
-.crop {
-  height: 250px;
-  overflow: hidden;
-  margin: auto;
-}
-
-.crop img {
+.work-items img {
   width: 250px;
 }
 
