@@ -4,6 +4,7 @@ import "./Content.css";
 import Home from "./Home/Home";
 import Work from "./Work/Work";
 import Contact from "./Contact/Contact";
+import NotFound from "./NotFound/NotFound";
 
 class Content extends Component {
   render() {
@@ -13,6 +14,7 @@ class Content extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/work" component={Work} />
           <Route path="/contact" component={Contact} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </main>
     );
