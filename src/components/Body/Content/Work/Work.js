@@ -25,8 +25,8 @@ class Work extends Component {
     super(props);
     this.state = {
       imageModalVisible: false,
-      imgSrc: "source",
-      imgAlt: "alt"
+      imgSrc: "",
+      imgAlt: ""
     };
     this.modalToggle = this.modalToggle.bind(this);
     this.activateUWOHomeModal = this.activateUWOHomeModal.bind(this);
