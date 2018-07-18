@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Work.css";
+import Overlay from "../../../Overlay/Overlay";
 import Helmet from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import uwoshAdmissionsSmall from "./images/small-images/admissions.jpg";
@@ -10,6 +11,22 @@ import virtualTourSmall from "./images/small-images/virtualtour.jpg";
 import farmAndFleetBlogSmall from "./images/small-images/farmandfleetblog.jpg";
 
 class Work extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      imageModalVisible: false
+    };
+    this.modalToggle = this.modalToggle.bind(this);
+  }
+
+  modalToggle() {
+    if (this.state.imageModalVisible) {
+      this.setState({ imageModalVisible: false });
+    } else {
+      this.setState({ imageModalVisible: true });
+    }
+  }
+
   render() {
     return (
       <div>
@@ -230,6 +247,10 @@ class Work extends Component {
             </p>
           </div>
         </div>
+        <Overlay
+          show={this.state.imageModalVisible}
+          menuToggle={this.modalToggle}
+        />
       </div>
     );
   }
