@@ -3,6 +3,9 @@ import "./Home.css";
 import profileImage from "../../../../images/joseph-profile.jpg";
 
 class Home extends Component {
+  componentDidMount() {
+    document.title = "Joseph Kerkhof - Home";
+  }
   render() {
     return (
       <div className="home-wrapper">

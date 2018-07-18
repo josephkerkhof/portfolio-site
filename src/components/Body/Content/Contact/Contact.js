@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "./Contact.css";
 
 class Contact extends Component {
+  componentDidMount() {
+    document.title = "Joseph Kerkhof - Contact";
+  }
   render() {
     return (
       <div className="contact-page-wrapper">

@@ -8,6 +8,9 @@ import virtualTour from "./images/virtualtour.jpg";
 import farmAndFleetBlog from "./images/farmandfleetblog.jpg";
 
 class Work extends Component {
+  componentDidMount() {
+    document.title = "Joseph Kerkhof - Work";
+  }
   render() {
     return (
       <div>
