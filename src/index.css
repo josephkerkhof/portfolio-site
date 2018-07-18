@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 body,
 html,
 #root {
@@ -14,4 +15,12 @@ h1 {
 
 p {
   font-size: 1.5rem;
+}
+
+code {
+  background: #dadfe1;
+  padding: 15px;
+  margin: 15px 0;
+  display: block;
+  font-family: 'Inconsolata', monospace;
 }

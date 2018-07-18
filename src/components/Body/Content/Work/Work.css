@@ -2,7 +2,8 @@
   padding: 25px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
 }
 
 .work-item div {
@@ -12,10 +13,17 @@
 .crop {
   height: 250px;
   overflow: hidden;
+  margin: auto;
 }
 
 .crop img {
   width: 250px;
+}
+
+.work-item-title {
+  grid-column: 1/5;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .uwo-theme-image-1 {
@@ -28,4 +36,11 @@
 
 .uwo-theme-description {
   grid-column: 3/5;
+}
+
+.gemification-description,
+.portalv2-description,
+.virtual-tour-description,
+.bff-blog-description {
+  grid-column: 2/5;
 }
