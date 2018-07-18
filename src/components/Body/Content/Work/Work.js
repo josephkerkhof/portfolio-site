@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Work.css";
-import Overlay from "../../../Overlay/Overlay";
+import Modal from "./Modal/Modal";
 import Helmet from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import uwoshAdmissionsSmall from "./images/small-images/admissions.jpg";
@@ -247,9 +247,9 @@ class Work extends Component {
             </p>
           </div>
         </div>
-        <Overlay
+        <Modal
           show={this.state.imageModalVisible}
-          menuToggle={this.modalToggle}
+          modalToggle={this.modalToggle}
         />
       </div>
     );
