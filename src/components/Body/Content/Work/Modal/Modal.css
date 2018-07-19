@@ -1,16 +1,29 @@
-.modal-wrapper {}
+.modal-wrapper {
+}
 
 .modal-img-wrapper {
-    z-index: 3;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: grid;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  overflow-y: scroll;
+  z-index: 3;
 }
 
 .modal-img {
-    height: 100%;
-    margin: auto;
+  height: 100%;
+  margin: auto;
+  z-index: 4;
+}
+
+.zoomedIn {
+  cursor: zoom-out;
+  width: 100%;
+  height: auto;
+}
+
+.zoomedOut {
+  cursor: zoom-in;
 }
