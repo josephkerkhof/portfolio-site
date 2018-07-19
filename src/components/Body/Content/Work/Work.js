@@ -132,8 +132,10 @@ class Work extends Component {
         <hr />
         <div className="work-items">
           <div className="work-item-title">
-            <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>'s
-            theme and branding
+            <h3>
+              <abbr title="University of Wisconsin - Oshkosh">UW-Oshkosh</abbr>'s
+              theme and branding
+            </h3>
           </div>
           <LazyLoad className="img-wrapper uwo-theme-image-1">
             <img
@@ -183,7 +185,9 @@ class Work extends Component {
               </a>.
             </p>
           </div>
-          <div className="work-item-title">MyUWO Portal Homepage Redesign</div>
+          <div className="work-item-title">
+            <h3>MyUWO Portal Homepage Redesign</h3>
+          </div>
           <LazyLoad className="img-wrapper">
             <img
               src={portalV2Small}
@@ -216,8 +220,10 @@ class Work extends Component {
             </p>
           </div>
           <div className="work-item-title">
-            <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> Virtual
-            Tour Redesign
+            <h3>
+              <abbr title="University of Wisconsin - Oshkosh">UWO</abbr> Virtual
+              Tour Redesign
+            </h3>
           </div>
           <LazyLoad className="img-wrapper">
             <img
@@ -258,7 +264,9 @@ class Work extends Component {
               even the field of our sports complex!
             </p>
           </div>
-          <div className="work-item-title">Gemification</div>
+          <div className="work-item-title">
+            <h3>Gemification</h3>
+          </div>
           <LazyLoad className="img-wrapper">
             <img
               src={gemificationSmall}
@@ -295,7 +303,7 @@ class Work extends Component {
         <hr />
         <div className="work-items">
           <div className="work-item-title">
-            Blain's Farm and Fleet Blog - Product List
+            <h3>Blain's Farm and Fleet Blog - Product List</h3>
           </div>
           <LazyLoad className="img-wrapper">
             <img

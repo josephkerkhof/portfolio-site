@@ -24,3 +24,11 @@ code {
   display: block;
   font-family: 'Inconsolata', monospace;
 }
+
+@media screen and (max-width: 600px) {
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -3px;
+  }
+}
