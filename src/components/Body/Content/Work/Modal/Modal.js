@@ -7,11 +7,13 @@ class Modal extends Component {
     if (this.props.show) {
       return (
         <div className="modal-wrapper">
-          <img
-            src={this.props.imgSrc}
-            alt={this.props.imgAlt}
-            className="modal-img"
-          />
+          <div className="modal-img-wrapper" onClick={this.props.modalToggle}>
+            <img
+              src={this.props.imgSrc}
+              alt={this.props.imgAlt}
+              className="modal-img"
+            />
+          </div>
           <Overlay show={this.props.show} menuToggle={this.props.modalToggle} />
         </div>
       );
