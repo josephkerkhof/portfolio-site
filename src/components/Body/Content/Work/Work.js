@@ -323,10 +323,10 @@ class Work extends Component {
               </a>{" "}
               wanted a way to attach items they sold in their eCommerce store to
               their blog posts. Using the WordPress{" "}
-              <abbr title="Application Program Interface">API</abbr> I and tying
-              into product databases in the Blain's Farm and Fleet system, I
-              created an interactive way for content writers to attach products
-              to their blog posts.
+              <abbr title="Application Program Interface">API</abbr> and tying
+              into the Blain's Farm and Fleet product database, I created an
+              interactive way for content writers to attach products to their
+              blog posts.
             </p>
           </div>
         </div>
