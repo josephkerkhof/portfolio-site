@@ -20,7 +20,7 @@ class Contact extends Component {
           <ul>
             <li>
               <a
-                href="mailto:joseph.kerkhof@gmail.com"
+                href="mailto:joseph.kerkhof@outlook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -17,7 +17,7 @@ class Footer extends Component {
         </div>
         <div className="social">
           <a
-            href="mailto:joseph.kerkhof@gmail.com"
+            href="mailto:joseph.kerkhof@outlook.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="email"

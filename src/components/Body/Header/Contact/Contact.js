@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <a
-        href="mailto:joseph.kerkhof@gmail.com"
+        href="mailto:joseph.kerkhof@outlook.com"
         target="_blank"
         rel="noopener noreferrer"
         className="header-contact-wrapper"

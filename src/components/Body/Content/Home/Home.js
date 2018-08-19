@@ -47,7 +47,7 @@ class Home extends Component {
             target="_blank"
             without
             rel="noopener noreferrer"
-            href="mailto:joseph.kerkhof@gmail.com"
+            href="mailto:joseph.kerkhof@outlook.com"
           >
             Reach out
           </a>{" "}
